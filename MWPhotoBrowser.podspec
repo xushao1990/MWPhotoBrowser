@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
     s.homepage = 'https://github.com/mwaterfall/MWPhotoBrowser'
     s.author = { 'Michael Waterfall' => 'michaelwaterfall@gmail.com' }
     s.source = {
-        :git => 'https://github.com/mwaterfall/MWPhotoBrowser.git',
+        :git => 'https://github.com/xushao1990/MWPhotoBrowser.git',
         :tag => '1.4.1'
     }
     s.platform = :ios, '5.1.1'
@@ -38,4 +38,5 @@ Pod::Spec.new do |s|
     s.frameworks = 'MessageUI', 'ImageIO', 'QuartzCore', 'AssetsLibrary', 'MapKit'
     s.dependency 'SDWebImage', '~> 3.7'
     s.dependency 'DACircularProgress'
+    s.dependency 'MBProgressHUD', '~> 0.9.1'
 end
